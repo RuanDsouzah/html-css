@@ -62,10 +62,18 @@ section.imagem{
 }
 section.imagem>p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.623);
+    background-color: rgba(0, 0, 0, 0.466);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+}
+section#imagem1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+}
+section#imagem2{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
 }
 
 
