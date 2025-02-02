@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela grande </title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        .num{
+            background-color: darkgrey;
+            color: white;
+
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .dt{
+            text-align: right;
+        }
+        tfoot{
+            background-color: darkgrey;
+        }
+        .p{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th class="num">estado</th>
+                <th class="num">população</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>brasil</td>
+                <td class="dt">203 493 629</td>
+            </tr>
+            <tr>
+                <td>estados unidos</td>
+                <td class="dt">346 353 341</td>
+            </tr>
+            <tr>
+                <td>japão</td>
+                <td class="dt">124 127 899</td>
+            </tr>
+            <tr>
+                <td>frança</td>
+                <td class="dt">65 273 511</td>
+            </tr>
+            <tr>
+                <td>italia</td>
+                <td class="dt">60 461 826</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>total de habitante</th>
+                <td class="p">799 710 206</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
