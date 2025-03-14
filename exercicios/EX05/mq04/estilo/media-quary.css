@@ -2,6 +2,14 @@
 
 /*todas as demais medias*/
 
+
 @media print {
-    
+
 }
+
+@media screen {
+   body{
+    background-image: url(.../imagens.jpg);
+   }
+}
+        
