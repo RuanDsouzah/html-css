@@ -13,7 +13,7 @@ html{
     height: 100vh;
 }
 body{
-    background-image: url(../imagens/back-phone.jpg);
+    background:black url(../imagens/back-phone.jpg);
     background-size: cover;
     background-position: center;
 }
