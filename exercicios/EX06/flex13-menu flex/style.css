@@ -15,8 +15,8 @@ body{
     background-size: cover;
 }
 header h1{
-    border: 1px dotted black;
     flex: 0 0 180px;
+    border: 1px dotted black;
 }
 header{
     color: white;
@@ -30,10 +30,8 @@ header{
 }
 nav{
     padding: 5px;
-    border: 1px dotted black;
-
     display: flex;
-    flex-flow: row wrap;
+    border: 1px dotted black;
 }
 nav a{
     background-color: rgba(32, 19, 19, 0.925);
