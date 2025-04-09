@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: aliceblue;
+    padding: 10px;
+}
+header h1, p{
+    padding: 10px;
+}
+main{
+    background-color: lightgray;
+    padding: 10px;
+}
+.media-text{
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+.text{
+    flex: 1 0 300px;
+    border: 1px dotted black;
+}
+.media{
+    border: 1px dotted black;
+    margin: 1px;
+    flex: 0 1 auto;
+}
+.text-media{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 1 300px;
+    border: 1px dotted black;
+    margin: 1px/9*6965;
+}
+.normal{
+    background-color: aliceblue;
+}

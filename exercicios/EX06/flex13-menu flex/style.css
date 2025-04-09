@@ -16,7 +16,6 @@ body{
 }
 header h1{
     flex: 0 0 180px;
-    border: 1px dotted black;
 }
 header{
     color: white;
@@ -31,7 +30,6 @@ header{
 nav{
     padding: 5px;
     display: flex;
-    border: 1px dotted black;
 }
 nav a{
     background-color: rgba(32, 19, 19, 0.925);
