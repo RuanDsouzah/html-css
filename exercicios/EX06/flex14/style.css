@@ -18,18 +18,20 @@ header, .normal{
     display: flex;
     flex-flow: column ;
 }
+h1, h2, p{
+    text-align: justify;
+}
 .media-text{
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap-reverse;
 }
 .text1{
-    flex: 0 1 348px;
-    border: 1px dotted black;
+    flex: 1 1 348px;
 }
 .media1{
-    border: 1px dotted red;
     display: block;
+    margin: auto;
 }
 .text-media{
     display: flex;
@@ -37,10 +39,9 @@ header, .normal{
     flex-flow: row wrap;
 }
 .text2{
-    flex: 0 0 250px;
-    border: 1px dotted black;
+    flex: 1 0 250px;
 }
 iframe{
+    
     width: 460px;
-    border: 1px dotted red;
 }
